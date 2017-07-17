@@ -1,0 +1,17 @@
+
+#extend("base")
+
+#export("body") {
+
+<div class="mdl-card shadow--2dp">
+
+    <div class="mdl-card__supporting-text">
+      <div class="mdl-textfield mdl-js-textfield">
+        <pre>#(note.message)</pre>
+      </div>
+
+    </div>
+</div>
+
+
+}
